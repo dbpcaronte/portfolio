@@ -1,0 +1,152 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1877f2;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.item p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.item a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer {
+  background-color: #1877f2;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos de encabezado y navegación */
+header {
+  background-color: #1877f2;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+nav ul {
+  background-color: #1877f2;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Estilos de la sección "Sobre mí" */
+section#sobre-mi {
+  background-color: #f0f2f5;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de proyectos (mantén los estilos anteriores) */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.item p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #1877f2;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
